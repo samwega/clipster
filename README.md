@@ -7,3 +7,5 @@ My glazewm launch command looks like:
     bindings: ['alt+v']
 
 The autohotkey command should be similar, I haven't tried.
+
+<img width="885" height="878" alt="clipster obsidian clipboard dump" src="https://github.com/user-attachments/assets/a798c3ee-a427-4f4d-8518-bbe3ff406a6d" />
