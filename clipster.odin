@@ -1,6 +1,7 @@
 /*
 Place the odin file or the executable, for example in an Obsidian subfolder, and use autohotkey or glazewm to run it from anywhere on your windows desktop.
 Clipster will append any utf8 content of your clipboard (timestamped) to a file named `yyyy_mm_dd.md` in the current folder (makes a new one if it does not exist). Currently does not support images.
+To use it without the shared/lexicon lib, you would just copy the two procs from there and include them here (available on my github).
 */
 package clipster
 
