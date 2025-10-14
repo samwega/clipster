@@ -1,12 +1,3 @@
-/*
-This version has all the procs included, added here so you don't have to get my library.
-
-Build and place the executable, for example in an Obsidian valut subfolder, and use autohotkey or glazewm to run it from anywhere on your windows desktop. Clipster will append any utf8 text content of your clipboard (timestamped) to a file named `yyyy_mm_dd.md` in the current folder (makes a new one if it does not exist). Currently does not support images.
-
-My glazewm launch command looks like:
-  - commands: ['shell-exec --hide-window cmd /c cd /d C:\Path\to\clipster\folder && clipster.exe']
-    bindings: ['alt+v']
-*/
 package clipster
 
 import "core:fmt"
