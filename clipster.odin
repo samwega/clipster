@@ -22,7 +22,7 @@ append_to_daily_file :: proc(text: string) -> bool {
 	if err != os.ERROR_NONE {
 		return false
 	}
-	defer os.close(file)
+	// defer os.close(file) // not really needed, runtime is milliseconds
 
 	hour, minute, second := lex.get_local_datetime(.TIME)
 	content := fmt.tprintf("\n\n`%02d:%02d:%02d`\n%s", hour, minute, second, text)
