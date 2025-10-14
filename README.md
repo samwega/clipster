@@ -3,8 +3,10 @@ Build and place the executable, for example in an Obsidian valut subfolder, and 
 `clipster.odin` calls procs from my shared/lexicon lib (available on my github). I have included a batteries included copy of the script with all of the procs (`clipster_standalone.odin`) - use that one.
 
 My glazewm launch command looks like:
+```
   - commands: ['shell-exec --hide-window cmd /c cd /d C:\Path\to\clipster\folder && clipster.exe']
     bindings: ['alt+v']
+```
 
 The autohotkey command should be similar, I haven't tried.
 
