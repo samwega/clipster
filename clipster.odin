@@ -25,7 +25,7 @@ append_to_daily_file :: proc(text: string) -> bool {
 	defer os.close(file)
 
 	hour, minute, second := lex.get_local_datetime(.TIME)
-	content := fmt.tprintf("\n\n## %02d:%02d:%02d\n%s\n", hour, minute, second, text)
+	content := fmt.tprintf("\n\n`%02d:%02d:%02d`\n%s", hour, minute, second, text)
 
 	bytes_written, write_err := os.write_string(file, content)
 	return write_err == os.ERROR_NONE && bytes_written > 0
